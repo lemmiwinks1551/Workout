@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Workout</string>
+    <string name="button_details">SHOW DETAILS</string>
 </resources>

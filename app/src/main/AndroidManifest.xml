@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Workout">
         <activity
+            android:label="DetailActivity"
             android:name=".DetailActivity"
             android:exported="false" />
         <activity
