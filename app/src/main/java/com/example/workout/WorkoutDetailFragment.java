@@ -55,6 +55,7 @@ public class WorkoutDetailFragment extends Fragment {
         }
     }
 
+    //
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
