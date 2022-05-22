@@ -11,12 +11,12 @@ public class Workout {
         this.description = description;
     }
 
-    Workout pressPump = new Workout("ПРЕСС КАЧАТ", "оп");
-    Workout running = new Workout("БЕГИТ", "быстро");
-    Workout pushUps = new Workout("АНЖУМАНЯ", "с хлопком");
-    Workout horizontalBar = new Workout("ТУРНИК", "и так 20 раз");
+    public static final Workout pressPump = new Workout("ПРЕСС КАЧАТ", "раз \n раз \n раз");
+    public static final  Workout running = new Workout("БЕГИТ", "быстро-быстро");
+    public static final  Workout pushUps = new Workout("АНЖУМАНЯ", "с хлопком");
+    public static final  Workout horizontalBar = new Workout("ТУРНИК", "и так 20 раз");
 
-    Workout[] exercises = {pressPump, running, pushUps, horizontalBar};
+    public static final Workout[] exercises = {pressPump, running, pushUps, horizontalBar};
 
     public String getName() {
         return name;
