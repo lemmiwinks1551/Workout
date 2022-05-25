@@ -6,7 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+        implements WorkoutListFragment.Listener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,8 +15,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onShowDetails(View view) {
+    @Override
+    public void itemClicked(long id) {
+        // Создает и запускает интент, который передает id
         Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra(DetailActivity.EXTRA_WORKOUT_ID, (int) id);
         startActivity(intent);
     }
 }

@@ -1,19 +1,19 @@
 package com.example.workout;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link WorkoutDetailFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
+
 public class WorkoutDetailFragment extends Fragment {
     // workoutId - идентификатор комплекса упражнений, выбранного пользователем. Позднее, при выводе
     // подробной информации, он будет использован для заполнения представлений фрагмента.
