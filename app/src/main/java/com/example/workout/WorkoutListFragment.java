@@ -25,7 +25,7 @@ public class WorkoutListFragment extends ListFragment {
     public void onAttach(Context context) {
         // Вызывается, когда фрагмент связывается с активностью.
         super.onAttach(context);
-        this.listener = (Listener) context;
+        this.listener = (Listener) context; // Устаавливается слушатель
     }
 
     @Override
